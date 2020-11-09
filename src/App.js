@@ -1,10 +1,12 @@
 import React from 'react'
+import Dashboard from './containers/Dashboard'
+import { ThemeProvider } from 'styled-components'
 
 const App = () => {
   return (
-    <div>
-      test
-    </div>
+    <ThemeProvider theme='any'>
+      <Dashboard />
+    </ThemeProvider>
   )
 }
 
