@@ -1,6 +1,6 @@
-import { createGlobalStlye } from 'styled-components'
+import { createGlobalStyle } from 'styled-components'
 
-export const GlobalStyles = createGlobalStlye`
+export const GlobalStyles = createGlobalStyle`
     *,
     *::after,
     *::before {
