@@ -6,6 +6,7 @@ export const Container = styled.div`
 
 export const ProfileImg = styled.img`
     height: 5rem;
+    width: 5rem;
     border-radius: 100%;
     margin-left: auto;
     margin-right: auto;
