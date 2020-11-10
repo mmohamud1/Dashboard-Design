@@ -1,10 +1,13 @@
 import React from 'react'
+import { MessageIcon, NavContainer, ProfileImg } from './MainElemetns'
+import Image from '../../assets/images/profile.jpg'
 
 const Nav = () => {
     return (
-        <div>
-            Nav
-        </div>
+        <NavContainer>
+            <MessageIcon></MessageIcon>
+            <ProfileImg src={Image} />
+        </NavContainer>
     )
 }
 
