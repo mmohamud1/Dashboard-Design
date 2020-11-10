@@ -9,7 +9,7 @@ const Menu = () => {
       <MenuItem title='Deposits' icon='file-multiple' active />
       <MenuItem title='Offers' icon='gift' />
       <MenuItem title='Payments' icon='bank' />
-      <MenuItem title='Setting' icon='cog' />
+      <MenuItem title='Settings' icon='cog' />
     </Container>
   );
 };

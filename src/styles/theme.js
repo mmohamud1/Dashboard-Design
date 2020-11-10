@@ -26,7 +26,7 @@ export const darkTheme = {
   primary: '#302c40',
   secondary: '#2c2839',
   textColor: '#fff',
-  header: '#5fff',
+  header: '#fff',
   headerNumber: '#585280',
   activeMenu: '#fff',
   ...globalTheme,
