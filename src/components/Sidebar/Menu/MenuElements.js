@@ -34,3 +34,11 @@ export const Title = styled.h1`
   font-size: 0.9rem;
   font-weight: 300;
 `;
+
+export const AddButton = styled.a`
+
+`
+
+export const AddIcon = styled.a`
+
+`
