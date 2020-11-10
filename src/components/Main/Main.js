@@ -12,7 +12,7 @@ const Main = () => {
       <Nav />
       <NewDepositBtn />
       <Deposits title="Active Depositis" count={2} data={depositData.active} />
-      <Deposits title="Closed Depositis" count={2} data={depositData.closed} />
+      <Deposits title="Closed Depositis" count={8} data={depositData.closed} />
     </MainContainer>
   );
 };
