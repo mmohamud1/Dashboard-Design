@@ -74,3 +74,57 @@ export const DepositText = styled.h1`
   color: ${({ theme }) => theme.textColor};
   margin: 0;
 `;
+
+export const DepositSubtitle = styled(DepositText)`
+  font-size: 0.6rem;
+  color: #7fa7ad;
+  margin-top: 2px;
+`;
+
+export const DepositProperty = styled.div`
+  width: 30%;
+  display: flex;
+  align-items: center;
+`;
+
+export const DepositPropertyText = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+`;
+
+export const DepositPropertyImg = styled.img`
+  height: 35px;
+  width: 35px;
+`;
+
+export const DepositPropertyStreet = styled(DepositText)`
+  font-size: 1rem;
+`;
+
+export const DepositMoveInDate = styled(DepositText)`
+  width: 15%;
+`;
+
+export const DepositRent = styled(DepositText)`
+  width: 10%;
+`;
+
+export const DepositWrapper = styled.div`
+  width: 15%;
+`;
+
+export const DepositStatus = styled.div`
+  display: flex;
+  align-items: center;
+`;
+
+export const DepositStatusIndicator = styled.div`
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: ${(props) => props.color};
+  margin-left: 1rem;
+  position: absolute;
+  right: 7rem;
+`;
