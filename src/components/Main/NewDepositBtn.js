@@ -1,5 +1,5 @@
 import React from 'react';
-import { AddButton, AddIcon } from '../Sidebar/Menu/MenuElements';
+import { AddButton, AddIcon } from './MainElemetns';
 
 const NewDepositBtn = () => {
   return (
