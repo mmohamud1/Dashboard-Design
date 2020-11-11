@@ -1,10 +1,13 @@
 import React from 'react'
+import { DepositContainer } from './DepositElements';
 
-const Deposit = () => {
+const Deposit = ({data}) => {
+
+    const { property, moveInDate, rent, deposit, status } = data;
     return (
-        <div>
+        <DepositContainer>
             Deposits
-        </div>
+        </DepositContainer>
     )
 }
 
