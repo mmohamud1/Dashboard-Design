@@ -40,3 +40,17 @@ export const SortingBarProperty = styled(SortingBarText)`
   width: 30%;
 `;
 
+export const SortingBarMoveInDate = styled(SortingBarText)`
+  width: 15%;
+`;
+
+export const SortingBarRent = styled(SortingBarText)`
+  width: 10%;
+`;
+
+export const SortingBarDeposit = styled(SortingBarText)`
+  width: 15%;
+`;
+
+export const SortingBarStatus = styled(SortingBarText)`
+`
