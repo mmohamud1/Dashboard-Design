@@ -52,5 +52,4 @@ export const SortingBarDeposit = styled(SortingBarText)`
   width: 15%;
 `;
 
-export const SortingBarStatus = styled(SortingBarText)`
-`
+export const SortingBarStatus = styled(SortingBarText)``;
