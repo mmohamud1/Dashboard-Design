@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import { useThemeContext } from '../../context/themeContext';
 
 const Switch = styled.div`
     display: flex;
@@ -12,6 +13,7 @@ const Switch = styled.div`
     height: ${({ theme }) => theme.switchHeight};
     border-radius: 50em;
     padding: ${({ theme }) => theme.switchPadding} 0;
+    cursor: pointer;
     .switch__input, .switch__label {
         position: absolute;
         left: 0;
@@ -61,13 +63,30 @@ const Switch = styled.div`
 `
 
 const ToggleSwitch = () => {
-    return (
-        <Switch>
-            <input className="switch__input" type="checkbox" id="switchCheckbox1" onClick={() => {}} />
-            <label aria-hidden="true" className="switch__label" htmlFor="switchCheckboc1">On</label>
-            <div aria-hidden="true" className="switch__marker"></div>
-        </Switch>
-    )
-}
+  const { toggleTheme } = useThemeContext();
 
-export default ToggleSwitch
+  return (
+    <>
+      <Switch>
+        <input
+          className='switch__input'
+          type='checkbox'
+          id='switchCheckbox1'
+          onClick={toggleTheme}
+        />
+        <label
+          aria-hidden='true'
+          className='switch__label'
+          htmlFor='switchCheckbox1'
+        >
+          On
+        </label>
+        <div aria-hidden='true' className='switch__marker'></div>
+      </Switch>
+    </>
+  );
+};
+
+export default ToggleSwitch;
+
+
