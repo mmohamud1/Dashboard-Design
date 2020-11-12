@@ -1,14 +1,20 @@
-import React from 'react';
-import Dashboard from './containers/Dashboard';
+import React, { useContext } from 'react';
 import { ThemeProvider } from 'styled-components';
-import { GlobalStyles } from './styles/global';
+import Dashboard from './containers/Dashboard';
 import { lightTheme, darkTheme } from './styles/theme';
+import { GlobalStyles } from './styles/global';
+import { ThemeContext } from './context/themeContext';
 
 const App = () => {
+  const context = useContext(ThemeContext);
+  const { theme } = context;
+
   return (
-    <ThemeProvider theme={lightTheme}>
-      <GlobalStyles />
-      <Dashboard />
+    <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
+      <>
+        <GlobalStyles />
+        <Dashboard />
+      </>
     </ThemeProvider>
   );
 };

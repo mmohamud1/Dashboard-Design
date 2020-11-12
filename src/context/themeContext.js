@@ -5,6 +5,7 @@ export const ThemeContext = createContext({ theme: 'light' });
 export const ThemeContextProvider = ({ children }) => {
   const [theme, setTheme] = useState('light');
 
+  // Function to change theme
   const toggleTheme = () => {
     if (theme === 'light') {
       setTheme('dark');
@@ -23,4 +24,13 @@ export const ThemeContextProvider = ({ children }) => {
       {children}
     </ThemeContext.Provider>
   );
+};
+
+export const useThemeContext = () => {
+  const context = useContext(ThemeContext);
+  if (context === undefined) {
+    throw new Error('useThemeContext must be used within a ThemeProvider');
+  }
+
+  return context;
 };
