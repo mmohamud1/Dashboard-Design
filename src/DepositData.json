@@ -6,8 +6,7 @@
           "street": "10 Downing Street",
           "city": "London",
           "state": "ENG"
-        },
-        "imageUrl": "lostround.png"
+        }
       },
       "moveInDate": "25 February 2020",
       "rent": 3000.0,
@@ -26,8 +25,7 @@
           "street": "101 Portland St",
           "city": "Manchester",
           "state": "ENG"
-        },
-        "imageUrl": "jaggedarbor.png"
+        }
       },
       "moveInDate": "12 March 2020",
       "rent": 2300.0,
@@ -48,8 +46,7 @@
           "street": "169 Bute Street",
           "city": "Cardiff",
           "state": "WAL"
-        },
-        "imageUrl": "noblecape.png"
+        }
       },
       "moveInDate": "3 February 2020",
       "rent": 3300.0,
@@ -68,8 +65,7 @@
           "street": "1141 Argyle Street",
           "city": "Glasgow",
           "state": "SCO"
-        },
-        "imageUrl": "tawnymaze.png"
+        }
       },
       "moveInDate": "12 January 2020",
       "rent": 2500.0,
