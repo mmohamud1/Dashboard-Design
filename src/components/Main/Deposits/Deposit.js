@@ -1,5 +1,5 @@
 import React from 'react'
-import { DepositContainer, DepositMoveInDate, DepositProperty, DepositPropertyImg, DepositPropertyStreet, DepositPropertyText, DepositSubtitle } from './DepositElements';
+import { DepositContainer, DepositMoveInDate, DepositProperty, DepositPropertyImg, DepositPropertyStreet, DepositPropertyText, DepositRent, DepositSubtitle, DepositText, DepositWrapper } from './DepositElements';
 import Image from '../../../assets/images/home-icon.png'
 
 const Deposit = ({data}) => {
@@ -21,6 +21,11 @@ const Deposit = ({data}) => {
           </DepositPropertyText>
         </DepositProperty>
         <DepositMoveInDate>{moveInDate}</DepositMoveInDate>
+        <DepositRent>£{rent}</DepositRent>
+        <DepositWrapper>
+            <DepositText>£{deposit.amount}</DepositText>
+            <DepositSubtitle>{deposit.type}</DepositSubtitle>
+        </DepositWrapper>
       </DepositContainer>
     );
 }
