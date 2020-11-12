@@ -6,6 +6,7 @@ export const DepositsTitle = styled.h1`
   font-size: 1.3rem;
   display: flex;
   align-items: center;
+  padding-top: 20px;
 `;
 
 export const DepositsCount = styled.div`
