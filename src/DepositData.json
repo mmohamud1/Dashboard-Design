@@ -8,10 +8,10 @@
           "state": "ENG"
         }
       },
-      "moveInDate": "25 February 2020",
-      "rent": 3000.0,
+      "moveInDate": "25 December 2020",
+      "rent": 13000.0,
       "deposit": {
-        "amount": 9000.0,
+        "amount": 19000.0,
         "type": "First, Last & Security"
       },
       "status": {
@@ -27,7 +27,7 @@
           "state": "ENG"
         }
       },
-      "moveInDate": "12 March 2020",
+      "moveInDate": "12 November 2020",
       "rent": 2300.0,
       "deposit": {
         "amount": 4600.0,
@@ -48,7 +48,7 @@
           "state": "WAL"
         }
       },
-      "moveInDate": "3 February 2020",
+      "moveInDate": "3 June 2020",
       "rent": 3300.0,
       "deposit": {
         "amount": 6900.0,
@@ -67,7 +67,7 @@
           "state": "SCO"
         }
       },
-      "moveInDate": "12 January 2020",
+      "moveInDate": "12 May 2020",
       "rent": 2500.0,
       "deposit": {
         "amount": 7500.0,

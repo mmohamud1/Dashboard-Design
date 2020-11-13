@@ -4,11 +4,11 @@ import Sidebar from '../components/Sidebar/Sidebar';
 
 const Dashboard = () => {
   return (
-        <div>
-            <Sidebar />
-            <Main />
-        </div>  
-    )  
+    <div>
+      <Sidebar />
+      <Main />
+    </div>
+  );
 };
 
 export default Dashboard;
